@@ -1,0 +1,51 @@
+body {
+  background: #201020;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.form-container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-container button {
+  border: none;
+  cursor: pointer;
+}
+/* Estilo para todos los elementos del formulario */
+.form-container label,
+.form-container input[type="text"],
+.form-container textarea,
+.form-container button {
+  margin-bottom: 10px; /* Agrega separación entre cada elemento del formulario */
+}
+label {
+  display: block;
+
+}
+
+input {
+  width: 100%;
+}
+textarea {
+  min-width: 550px;
+  max-height: 400px;
+}
+span {
+  display: block;
+  color: rgb(206, 242, 29);
+  font-size: x-small;
+}
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.button-container button {
+  margin: 0 35px;
+  width: 200px;
+  height: 60px;
+}
