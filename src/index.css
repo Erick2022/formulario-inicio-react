@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
 
 }
+
 .form-container {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -48,4 +49,79 @@ span {
   margin: 0 35px;
   width: 200px;
   height: 60px;
+}
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%; /* Cambia el ancho del contenedor según sea necesario */
+  max-width: 800px; /* Limita el ancho máximo del contenedor */
+  margin-right: 20px ;
+}
+
+.form-container { 
+  flex-grow: 1; /* Permite que el formulario crezca para llenar el espacio restante */
+  margin-right: 20px;
+}
+
+.message {
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+} 
+.image {
+  max-width: 200px; /* Ajusta el tamaño de la imagen según tu necesidad */
+  margin-right: 20px;
+
+}
+.ad-container {
+  background-color: #f9f9f5; /* Cambia el color de fondo */
+  padding: 20px; /* Agrega espacio alrededor del contenido */
+  border-radius: 30px; /* Agrega bordes redondeados */
+  margin-left: auto;
+
+}
+.ad-container {
+  position: absolute;
+  top: 37px;  
+  right: 0;
+  margin-right: 25px; /* Ajusta el margen derecho según sea necesario */
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+  height: 400px;
+
+}
+
+p {
+  color: #858185;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+img {
+  color: #b1aeb1; 
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+.number {
+  font-size: 40px;
 }
