@@ -224,7 +224,8 @@ function App() {
             name='incidencia2'
             type="text"
             {...register("incidencia2")}
-            defaultValue="Inspectores llegaron temprano, se usa laptop para ingreso de vehículos al SISCOTT."
+            defaultValue="Inspectores llegaron temprano,
+se usa laptop para ingreso de vehículos al SISCOTT."
           />
 
           <label
@@ -248,7 +249,7 @@ function App() {
 
         <div className="ad-container">
           <div className="message">
-            <p>Yapea <span className="number">S/.1</span>sol al programador... Pol Dali</p>
+            <p>Yapea <span className="number">S/.1</span>al programador... Pol Dali</p>
           </div>
           <img className="image" src="./img/21320185072024-04-18T16-18-22.png"
            alt="yapea al programador...!!!" />
