@@ -8,6 +8,7 @@ body {
 
 }
 
+ 
 .form-container {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -117,7 +118,7 @@ img {
 
 }
 
-.image {
+.image  {
   max-width: 100%;
   max-height: 100%;
   margin: auto;

@@ -224,8 +224,8 @@ function App() {
             name='incidencia2'
             type="text"
             {...register("incidencia2")}
-            defaultValue="Inspectores llegaron temprano,
-se usa laptop para ingreso de vehículos al SISCOTT."
+            defaultValue="Inspectores llegaron temprano.
+Se usa laptop para ingreso de vehículos al SISCOTT."
           />
 
           <label
