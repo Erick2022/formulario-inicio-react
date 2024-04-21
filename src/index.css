@@ -126,20 +126,19 @@ img {
 .number {
   font-size: 40px;
 }
-/* Estilos para pantallas más pequeñas - dispositivos moviles*/
-@media  only screen and (max-width: 600px) {
-  .container {
-    flex-direction: column; /* Cambia la dirección del flexbox a columna para dispositivos móviles */
-    align-items: center; /* Centra los elementos verticalmente */
-   
 
-  }
-  .form-container {
-    margin-bottom: 20px;  /* Agrega un margen inferior al formulario para separarlo del anuncio */
-  }
   .ad-container {
-    max-width: 100%; /* Establece un ancho máximo para el anuncio */
-    margin-top: 20px; /* Agrega un margen superior al anuncio para separarlo del formulario */
+    
+    margin-top: 20px; /* Agrega un margen superior al anuncio */
   }
- }
+  /* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .ad-container {
+    position: relative; /* Cambia la posición a relativa */
+    margin-top: 20px; /* Agrega un margen superior */
+    margin-bottom: 20px; /* Agrega un margen inferior para separarlo del formulario */
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
+  }
+ 
   
